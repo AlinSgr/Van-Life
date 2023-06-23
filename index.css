@@ -294,7 +294,9 @@ footer {
     text-decoration: underline;
     background-color: transparent;
     color: #4D4D4D;
+     
 }
+
 
 i[class*='van-type-'] {
     padding: 7px 14px;
@@ -764,6 +766,17 @@ img.graph {
      align-items: self-start;
      
     }
+    .van-list-filter-buttons{
+      flex-wrap: wrap;
+         
+         
+    }
+    .van-type{
+        width: 40%;
+        margin-top: 5px;
+        
+    }
+    
  }
 @media only screen and (min-width: 800px) {
     html,body{
