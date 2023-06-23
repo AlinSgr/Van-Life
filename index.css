@@ -756,11 +756,20 @@ img.graph {
     margin-right: 5px;
 }
 /* Media Query */
-
-@media (min-width: 800px) {
+@media only screen and  (max-width: 500px ) {
+    header{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: self-start;
+     
+    }
+ }
+@media only screen and (min-width: 800px) {
     html,body{
         width: 75%;
     }
+  
     .home-container{
         display: flex;
         flex-direction: column;
@@ -772,3 +781,4 @@ img.graph {
     }
     
 }
+
