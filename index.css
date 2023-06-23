@@ -763,7 +763,7 @@ img.graph {
      display: flex;
      flex-direction: column;
      justify-content: center;
-     align-items: self-start;
+     align-items: center;
      
     }
     .van-list-filter-buttons{
